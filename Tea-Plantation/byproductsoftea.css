@@ -1,0 +1,643 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    background-image: url("./Images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    height: 150px;
+}
+
+#logo{
+    float: left;
+    height: 150px;
+    width: 150px; 
+    margin-left: 50px;
+    margin-right: auto;
+}
+
+header h1{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 10px;
+    padding: 60px;
+    margin-top: 5px;
+    color:black;
+}
+
+#nav{
+    position: absolute;
+    top: 25px;
+    right: 80px;
+}
+
+nav a{
+    display: block;
+    float: right;
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+    font-size: 18px;
+    border-bottom: solid #000000;
+}
+
+nav a:hover{
+    background-color:gainsboro;
+}
+
+
+#pages{
+    background-color: rgb(251, 198, 51);
+    text-align: center;
+    position: sticky;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    z-index: 1;
+    margin: 0;
+}
+
+hr{
+    background-color: black;
+    width: 95%;
+    top: 60px;
+}
+
+#pages a{
+    text-decoration: none;
+    margin: 40px;
+    font-size: 22px;
+    color: white;
+}
+
+#pages a:hover{    
+    color: #000000;
+    border-bottom: solid black;
+}
+
+#pages a:active{
+    background-color: darkseagreen;
+    color: black;
+}
+
+
+#teatreeoil{
+    background-image: url(./Images/tea\ tree\ oil.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    width: 50%;
+    text-align: justify;
+    padding: 10px;
+    padding-left: 10px;
+    margin-left: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 20pt;
+}
+
+#teatreeoil h1{
+    text-decoration: underline;
+}
+
+#ttodescription{
+    padding: 15px;
+    font-size: 14pt;
+}
+
+#teatreeoil ol{
+    padding-left: 50px;
+    font-size: 14pt;
+}
+
+#ttouses{
+    padding-left: 10%;
+}
+
+#link {
+    left: 5%;
+    font-size: 14pt;
+    font-weight: 600;
+    display: flex;
+    width: 85%;
+    padding: 10px;
+}
+
+#link a{
+    color: rgb(50, 138, 41);
+}
+
+#link a:hover{
+    background-color: #dfbb6c;
+}
+
+#link img{
+    position: relative;
+    padding:0;
+}
+
+#linkimg:hover{
+    box-shadow:  0 0 2px 2px rgb(129, 197, 229);
+}
+
+#bodywash{
+    background-image: url(./Images/body\ wash\ bgimg.JPEG);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    text-align: justify;
+    float: right;
+    padding: 10px;
+    padding-left: 10px;
+    margin-right: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 20pt;
+}
+
+#bodywash h1{
+    text-decoration: underline;
+}
+
+#bwdescription{
+    padding: 15px;
+    font-size: 14pt;
+}
+
+#bwbenefits ol{
+    padding-left: 50px;
+    font-size: 14pt;
+}
+
+#bwbenefits{
+    padding-left: 10%;
+}
+
+#linkttbw{
+    left: 5%;
+    font-size: 14pt;
+    font-weight: 600;
+    display: flex;
+    width: 80%;
+    padding: 10px;
+}
+
+#linkttbw a{
+    color: rgb(50, 138, 41);
+}
+
+#linkttbw a:hover{
+    background-color: #dfbb6c;
+}
+
+#linkttbw img{
+    position: relative;
+}
+
+#linkttbwimg:hover{
+    box-shadow: 0 0 2px 1px rgb(129, 197, 229);
+}
+
+#nightlotion{
+    background-image: url(./Images/night\ lotion\ bgimg.JPEG);
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    width: 50%;
+    text-align: justify;
+    padding: 10px;
+    padding-left: 10px;
+    margin-left: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 20pt;
+    display: inline-block;
+}
+
+#nightlotion h1{
+    text-decoration: underline;
+}
+
+#nldescription{
+    padding: 15px;
+    font-size: 14pt;
+}
+
+#nlbenefits ol{
+    padding-left: 50px;
+    font-size: 14pt;
+}
+
+#nlbenefits{
+    padding-left: 10%;
+}
+
+#linkttnl{
+    left: 5%;
+    font-size: 14pt;
+    font-weight: 600;
+    display: flex;
+    width: 75%;
+    padding: 10px;
+}
+
+#linkttnl a{
+    color: rgb(50, 138, 41);
+}
+
+#linkttnl a:hover{
+    background-color: #dfbb6c;
+}
+
+#linkttnl img{
+    position: relative;
+}
+
+#linkttnlimg:hover{
+    box-shadow: 0 0 2px 1px rgb(129, 197, 229);
+}
+
+
+
+/*Footer section*/
+footer{
+    background-color: #955f0e;
+    background-size: cover;
+    position: relative;
+    bottom: 0;
+    margin-bottom: 0;
+    height: 300px;
+    opacity: 0.8;
+}
+
+#slteaboard{
+    position: absolute;
+    list-style-type: none;
+    top: 80px;
+    left: 150px;
+    font-size: 13pt;
+    
+}
+
+#slteaboardimg{
+    display: flex;
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    top: 70px;
+    left: 60px;
+}
+
+#slteaexporters{
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    font-size: 13pt;
+
+}
+
+#slteaexportersimg{
+    display: flex;
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    top: 200px;
+    left: 50px;
+}
+
+footer div a{
+    color: white;
+    font-size: 14pt;
+    padding-left: 10px;
+}
+
+#info p{
+    color: white;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin-top: 10px;
+    font-size: 13pt;
+}
+
+footer div a:hover{
+    color: black;
+    background-color: white;
+}
+
+#footerlogo{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    float: right;
+    top: 50px;
+    right: 50px;
+}
+
+#arr{
+    position: absolute;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: 600;
+    top: 270px;
+    left: 2%;
+    right: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+}
+
+
+
+
+
+/*media query*/
+    
+/*header main topic*/
+@media(max-width: 768px){
+    #compnyname{
+        display: flex;
+        position:relative;
+        text-align: center;
+        width: auto;
+        font-size: 18pt;
+        padding: 0;
+        margin: 15%;
+    }
+    /*main logo*/
+    #logo{
+        top: 30px;
+        margin-left: 5px;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+
+
+/*top right corner navigation bar*/
+@media(max-width: 768px){
+    #nav{
+        width: auto;
+        right: 0;
+    }
+}
+
+/*Main navigation bars*/
+@media(max-width: 1310px){
+    #pages a{
+        margin: 20px;
+    }
+}
+
+@media(max-width: 1070px){
+    #pages a{
+        margin: 5%;
+    }
+}
+
+@media(max-width: 670px){
+    #pages{
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 768px){
+    #pages a{
+        margin: 20px;
+        font-size: 15pt;
+        line-height: 30px;
+    }
+    #pages{
+        padding-left: 0%;
+        padding-right: 0%;
+        text-align:justify;
+        background-size: cover;
+        margin: 0;
+    }
+}
+
+@media(max-width: 525px){
+    #pages a{
+        margin: 10px;
+        font-size: 15pt;
+        line-height: 30px;
+        text-decoration: underline white;
+    }
+    #pages{
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+        text-align:justify;
+        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #pages a:hover{
+        text-decoration: none;
+    }
+}
+
+
+/*tea tree oil*/
+@media(max-width: 1000px){
+    #teatreeoil{
+        width: auto;
+        height: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        object-fit: scale-down;
+    }
+    #linkimg{
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 640px){
+    #link{
+        width: auto;
+        display: inline-block;
+       
+    }
+    #link img{
+        width: 50%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #link ul{
+        width: 80%;
+    }
+    #ttouses{
+        padding-left: 0;
+    }
+}
+
+
+
+
+
+
+
+/*tea tree body wash*/
+@media(max-width: 1000px){    
+    #bodywash{
+        left: 0;
+        width: auto;
+        height: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        object-fit: scale-down;
+    }
+    #linkttbwimg{
+        width: 100%;
+    }
+
+    #bwbenefits{
+        padding-left: 0;
+        left: 0;
+    }
+}
+
+@media(max-width: 640px){
+    #linkttbw{
+        width: auto;
+        display: inline-block;
+       
+    }
+    #linkttbw img{
+        width: 50%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #linkttbw ul{
+        width: 80%;
+    }
+    #bwbenefits{
+        padding-left: 0;
+    }
+}
+
+
+
+/*tea tree night lotion*/
+@media(max-width: 1000px){    
+#nightlotion{
+        left: 0;
+        width: auto;
+        height: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        object-fit: scale-down;
+    }
+
+    #nlbenefits{
+        padding-left: 0;
+    }
+
+    #linkttnl img{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+}
+
+@media(max-width: 640px){
+    #linkttnl{
+        width: auto;
+        display: inline-block;
+       
+    }
+    #linkttnl img{
+        width: 50%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #linkttnl ul{
+        width: 80%;
+    }
+    #nlbenefits{
+        padding-left: 0;
+    }
+}
+
+
+
+
+
+/*footer logo*/
+@media(max-width: 1150px){
+    #footerlogo{
+        width: 100px;
+        height: 100px;
+        top: 15px;
+        right: 10px;
+    }
+}
+
+
+/*SL Tea board & SL Tea axporters association */
+@media(max-width: 768px){
+    #slteaboard{
+        left: 60px;
+        top: 60px;
+        font-size: 12pt;
+    }
+    #slteaexporters{
+        left: 80px;
+        font-size: 12pt;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #slteaexporters{
+        top: 170px;
+    }
+}
+
+
+/*SL tea board & SL tea exporters footer logo image*/
+@media(max-width: 768px){
+    #slteaboardimg{
+        width: 50px;
+        height: 70px;
+        left: 10px;
+        top: 50px;
+    }
+    #slteaexportersimg{
+        width: 70px;
+        height: 50px;
+        left: 10px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #slteaexportersimg{
+        top: 170px;
+    }
+}
+
+
+/*footer copyright element*/
+@media(max-width: 768px){
+    #arr{
+        font-size: 11pt;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #arr{
+        top: 250px;
+    }
+}

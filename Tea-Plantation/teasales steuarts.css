@@ -1,0 +1,561 @@
+/*header*/
+body{
+    margin: 0;
+    background-image: url("./Images/steuarts\ backimg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+header{
+    height: 150px;
+}
+
+
+/*main logo*/
+#logo{
+    float: left;
+    height: 150px;
+    width: 150px; 
+    margin-left: 50px;
+    margin-right: auto;
+}
+
+/*main topic in header*/
+header h1{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 10px;
+    padding: 60px;
+    margin-top: 5px;
+    color:black;
+}
+
+
+/*top left corner navigation bars*/
+#nav{
+    position: absolute;
+    top: 25px;
+    right: 80px;
+}
+
+#nav a{
+    display: block;
+    float: right;
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+    font-size: 18px;
+    border-bottom: solid #000000;
+}
+
+#nav a:hover{
+    background-color:gainsboro;
+}
+
+/*main navigation bars*/
+#pages{
+    background-color: rgb(251, 198, 51);
+    text-align: center;
+    position: sticky;
+    top: -10px;
+    width: 100%;
+    z-index: 1;
+    margin: 0;
+}
+
+hr{
+    background-color: black;
+    width: 95%;
+    top: 60px;
+}
+
+#pages a{
+    text-decoration: none;
+    margin: 40px;
+    font-size: 22px;
+    color: white;
+    height: 20px;
+    
+}
+
+#pages a:hover{    
+    color: #000000;
+    border-bottom: solid black;
+}
+
+#pages a:active{
+    background-color: darkseagreen;
+    color: black;
+}
+
+
+
+
+#logosec img{
+    width:70%;
+    margin: 30px;
+}
+
+#wft{
+    padding-top: 15%;
+    padding-bottom: 15%;
+    align-items: center;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+    -225deg,
+    rgb(72, 12, 12) 0%,
+    #a92727 60%,
+    #fdff90 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+     background-size: 300% auto;
+     color: #fff;
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     animation: textclip 8s linear infinite, background-fade 5s;
+     display: inline-block;
+     font-size: 50px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+#logosec{
+    display: flex;
+}
+
+#btn {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+#btn:hover {opacity: 0.6}
+
+
+img{
+    width: auto;
+    height: auto;
+}
+
+#ebf1{
+    margin-left: 20%;
+}
+
+#ebt, #egt, #mft, 
+#pgt, #oob, #cct{
+    position: relative;
+    display: flex;
+    text-align: center;
+    width: 500px;
+    margin: 30px;
+    background-color: rgb(194, 194, 114);
+}
+
+#ebt, #egt, #mft, 
+#pgt, #oob, #cct, p{
+    font-size: 16pt;
+}
+
+#ebt, #egt, #mft, 
+#pgt, #oob, #cct, section{
+    margin: 30px;
+    padding:10px;
+}
+
+
+
+/*footer*/
+footer{
+    background-color: #955f0e;
+    background-size: cover;
+    position: relative;
+    bottom: 0;
+    margin-bottom: 0;
+    height: 300px;
+    opacity: 0.8;
+}
+
+/*SL tea board*/
+#slteaboard{
+    position: absolute;
+    list-style-type: none;
+    top: 80px;
+    left: 150px;
+    font-size: 13pt;
+    
+}
+
+#slteaboardimg{
+    display: flex;
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    top: 70px;
+    left: 60px;
+}
+
+
+/*SL tea exporters association*/
+#slteaexporters{
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    font-size: 13pt;
+
+}
+
+#slteaexportersimg{
+    display: flex;
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    top: 200px;
+    left: 50px;
+}
+
+footer div a{
+    color: white;
+    font-size: 14pt;
+    padding-left: 10px;
+}
+
+#info p{
+    color: white;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin-top: 10px;
+    font-size: 13pt;
+}
+
+footer div a:hover{
+    color: black;
+    background-color: white;
+}
+
+#footerlogo{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    float: right;
+    top: 50px;
+    right: 50px;
+}
+
+#arr{
+    position: absolute;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: 600;
+    top: 270px;
+    left: 2%;
+    right: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+}
+
+
+/*media query*/
+    
+/*header main topic*/
+@media(max-width: 768px){
+    #compnyname{
+        display: flex;
+        position:relative;
+        text-align: center;
+        width: auto;
+        font-size: 18pt;
+        padding: 0;
+        margin: 15%;
+    }
+    /*main logo*/
+    #logo{
+        top: 30px;
+        margin-left: 5px;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+
+
+/*top right corner navigation bar*/
+@media(max-width: 768px){
+    #nav{
+        width: auto;
+        right: 0;
+    }
+}
+
+/*Main navigation bars*/
+@media(max-width: 1310px){
+    #pages a{
+        margin: 20px;
+    }
+}
+
+@media(max-width: 1070px){
+    #pages a{
+        margin: 5%;
+    }
+}
+
+@media(max-width: 670px){
+    #pages{
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 768px){
+    #pages a{
+        margin: 20px;
+        font-size: 15pt;
+        line-height: 30px;
+    }
+    #pages{
+        padding-left: 0%;
+        padding-right: 0%;
+        text-align:justify;
+        background-size: cover;
+        margin: 0;
+    }
+}
+
+@media(max-width: 525px){
+    #pages a{
+        margin: 10px;
+        font-size: 15pt;
+        line-height: 30px;
+        text-decoration: underline white;
+    }
+    #pages{
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+        text-align:justify;
+        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #pages a:hover{
+        text-decoration: none;
+    }
+}
+
+
+@media(max-width: 1000px){
+    #ebt, #egt, #mft, 
+    #pgt, #oob, #cct{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+}
+
+@media(max-width:910px){
+    #wft{
+        width: auto;
+        font-size: 30pt;
+    }
+}
+
+@media(max-width:840px){
+    #wft{
+        text-align: center;
+        width: auto;
+        font-size: 30pt;
+    }
+}
+
+@media(max-width:600px){
+    #wft{
+        width: auto;
+        margin-left: 0;
+        font-size: 20pt;
+        left: 20px;
+    }
+    #logosec img{
+        width: 150px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media(max-width:525px){
+    #wft{
+        width: auto;
+        margin-left: 0;
+        font-size: 20pt;
+        left: 50px;
+    }
+    #logosec img{
+        margin: 10px;
+        width: 100px;
+    }
+}
+
+@media(max-width:540px){
+    #ebf1 img{
+        width: 200px;
+    }
+}
+
+@media(max-width:400px){
+    #ebf1 img{
+        width: 50%;
+    }
+}
+
+
+@media(max-width:410px){
+    #wft{
+        font-size: 15pt;
+        padding-left: 2px;
+        padding-right: 2px;
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    #logosec{
+        display: block;
+    }
+
+    #logosec section {
+        text-align: center;
+    }
+}
+
+
+@media(max-width: 880px){
+    #ebf1{
+        margin: 0;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    #ebf1 section{
+        text-align: center;
+    }
+}
+
+@media(max-width: 730px){
+    #ebf1{
+        margin: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+}
+
+@media(max-width: 650px){
+    #ebf1{
+        margin: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+}
+
+@media(max-width: 880px){
+    #ebt, #egt, #mft, 
+    #pgt, #oob, #cct{
+        display: block;
+        width: auto;
+    }
+    
+}
+
+
+
+
+
+/*footer logo*/
+@media(max-width: 1150px){
+    #footerlogo{
+        width: 100px;
+        height: 100px;
+        top: 15px;
+        right: 10px;
+    }
+}
+
+
+/*SL Tea board & SL Tea axporters association */
+@media(max-width: 768px){
+    #slteaboard{
+        left: 60px;
+        top: 60px;
+        font-size: 12pt;
+    }
+    #slteaexporters{
+        left: 80px;
+        font-size: 12pt;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #slteaexporters{
+        top: 170px;
+    }
+}
+
+
+/*SL tea board & SL tea exporters footer logo image*/
+@media(max-width: 768px){
+    #slteaboardimg{
+        width: 50px;
+        height: 70px;
+        left: 10px;
+        top: 50px;
+    }
+    #slteaexportersimg{
+        width: 70px;
+        height: 50px;
+        left: 10px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #slteaexportersimg{
+        top: 170px;
+    }
+}
+
+
+/*footer copyright element*/
+@media(max-width: 768px){
+    #arr{
+        font-size: 11pt;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #arr{
+        top: 250px;
+    }
+}

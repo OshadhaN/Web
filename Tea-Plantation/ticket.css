@@ -1,0 +1,16 @@
+#Occupants input{
+    width: 40px;
+    right: 0;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+#extras input{
+    width: 40px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 10px;
+}

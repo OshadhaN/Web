@@ -1,0 +1,174 @@
+.cart{
+    position: fixed;
+    top: 20%;
+    right: -100%;
+    width: 340px;
+    min-height: 60%;
+    max-height: 300px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: rgb(210, 246, 208);
+    backdrop-filter: blur(8px);
+    box-shadow: -2px 0px 10px 2px hsl(0 9% 25% / 30%);
+    z-index: 100;
+    transition: 0.5s ease-in-out;
+    overflow-y:auto;
+    overflow-x: hidden;
+    border-radius: 20px 0 0 20px
+}
+
+.cart.active{
+    right: 0%;
+}
+
+.cart-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#orderBtn{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f4511e;
+    border: none;
+    color: black;
+    padding: 12px 20px;
+    font-size: 16px;
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 70px;
+}
+
+#orderBtn:hover{
+    opacity: 0.85;
+}
+
+.cart-box{
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.cart-img{
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.cart-detail-box{
+    display: grid;
+    row-gap: 0.5rem;
+}
+
+.cart-product-title{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.vart-price{
+    font-weight: 600;
+}
+
+.cart-quantity{
+    border: solid 1px;
+    width: 2.4rem;
+    text-align: center;
+}
+
+.cart-remove{
+    width: 25px;
+    height: 30px;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+.cart-total{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 1px solid ;
+}
+.cart-total-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.cart-total-price{
+    margin-left: 0.5rem;
+}
+
+#close-cart{
+    position: absolute;
+    top: 0.7rem;
+    right: 0.8rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+@media(max-width: 1120px){
+    .cart{
+        width: 35%;
+        min-height: 60vh;
+    }
+}
+
+@media(max-width: 1060px){
+    .cart{
+        width: 40%;
+    }
+}
+
+@media(max-width: 730px){
+    .cart{
+        width: 50%;
+    }
+}
+
+@media(max-width: 770px){
+    .cart{
+        top: 20%;
+        min-height: 60vh;
+    }
+}
+
+@media(max-width: 470px){
+    .cart{
+        width: 60%;
+    }
+}
+
+@media(max-width: 400px){
+    .cart{
+        width: 70%;
+    }
+}
+
+@media(max-width: 500px){
+    .cart{
+        top: 25%;
+        width: 70%;
+    }
+}
+
+@media(max-width: 500px){
+    .cart{
+        top: 25%;
+        width: 70%;
+    }
+}
+
+@media(max-width: 330px){
+    .cart{
+        top: 30%;
+        width: 60%;
+    }
+}
