@@ -719,6 +719,12 @@ button{
     margin-bottom: 10px;
 }
 
+#NaMe{
+    text-align: center;
+}
+#nama{
+    font-style: italic;
+}
 
 #duration{
     border-radius: 8px;
