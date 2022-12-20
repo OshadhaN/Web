@@ -755,28 +755,24 @@ button{
   
 .LAdultPrevious, .LChildren15Previous, .LChildren6Previous {
     text-align: center;
-    background-color: none;
     border-radius: 50%;
     cursor: pointer;
   }
 
 .FAdultPrevious, .fChildPrevious{
     text-align: center;
-    background-color: none;
     border-radius: 50%;
     cursor: pointer;
   }
   
 .LAdultNext, .LChildren15Next, .LChildren6Next{
     text-align: center;
-    background-color: none;
     border-radius: 50%;
     cursor: pointer;
   }
 
 .FAdultNext, .fChildNext{
     text-align: center;
-    background-color: none;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -802,14 +798,12 @@ button{
 
 #passSub, #tokenSub, #passAdd, #tokenAdd{
     text-align: center;
-    background-color: none;
     border-radius: 50%;
     cursor: pointer;
 }
 
 #fpassSub, #ftokenSub, #fpassAdd, #ftokenAdd{
     text-align: center;
-    background-color: none;
     border-radius: 50%;
     cursor: pointer;
 }
