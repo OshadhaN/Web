@@ -358,16 +358,6 @@ footer div a:hover{
 }
 
 
-    @media screen and(max-width: 450px){
-    #museumimg1, #museumimg2{
-        display: inline-block;
-        width: 25%;
-        position:absolute;
-        height: auto;
-        margin-left: 0;
-        margin-right: 0;
-     }
-}
 
     @media (max-width: 1220px) {
     #museumimg {display: block;}
