@@ -107,7 +107,6 @@ hr{
     color: black;
     background-color:#127281;
     border-radius: 5px;
-    box-shadow:none 0 0 0 0 ;
     transition: ease-out 0.3s;
     font-size: 13pt;
     outline: none;
@@ -125,7 +124,7 @@ hr{
     color: black;
     background-color:#127281;
     border-radius: 5px;
-    box-shadow:none 0 0 0 0 ;
+    box-shadow:none;
     transition: ease-out 0.3s;
     font-size: 13pt;
     outline: none;
